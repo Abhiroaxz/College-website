@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website design</title>
+    <link  rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-logo">
+            <a href="index.html"><img src="vector.jpg" alt="" class="logoimg" ></a>
+          
+            <pre>
+                
+                <p class="logo-text">EDUTECH</p>
+             </pre>
+          </div> 
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onClick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars"  onClick="showMenu()"></i>
+        </nav>
+      <div class="sub-header1">
+      <h1>Our Certificate & Online Programs For 2024</h1>
+      </div>
+       </section>
+
+<!--Blog page content-->
+
+<section class="blog-content">
+<div class="row">
+    <div class="blog-left">
+        <img src="degree.jpg" alt="" >
+        <h2>Our Certificate & Online Programs For 2024</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores aut vel voluptas hic eaque error sequi assumenda minima dolore suscipit dolores,
+             ab repudiandae soluta atque sapiente, asperiores quae consectetur doloremque placeat sint laudantium laboriosam reiciendis commodi nihil. 
+             Deleniti perferendis, est tempora beatae nobis quos, nam ratione, enim necessitatibus fuga totam.
+             Quam doloremque soluta voluptatum tempora ex itaque reiciendis delectus illo consequatur vitae laboriosam aliquam corporis, enim accusantium voluptatem velit vero?</p>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores aut vel voluptas hic eaque error sequi assumenda minima dolore suscipit dolores,
+        ab repudiandae soluta atque sapiente, asperiores quae consectetur doloremque placeat sint laudantium laboriosam reiciendis commodi nihil. 
+        Deleniti perferendis, est tempora beatae nobis quos, nam ratione, enim necessitatibus fuga totam.
+        Quam doloremque soluta voluptatum tempora ex itaque reiciendis delectus illo consequatur vitae laboriosam aliquam corporis, enim accusantium voluptatem velit vero?</p>
+<br>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores aut vel voluptas hic eaque error sequi assumenda minima dolore suscipit dolores,
+    ab repudiandae soluta atque sapiente, asperiores quae consectetur doloremque placeat sint laudantium laboriosam reiciendis commodi nihil. 
+    Deleniti perferendis, est tempora beatae nobis quos, nam ratione, enim necessitatibus fuga totam.
+    Quam doloremque soluta voluptatum tempora ex itaque reiciendis delectus illo consequatur vitae laboriosam aliquam corporis, enim accusantium voluptatem velit vero?</p>
+<br>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores aut vel voluptas hic eaque error sequi assumenda minima dolore suscipit dolores,
+    ab repudiandae soluta atque sapiente, asperiores quae consectetur doloremque placeat sint laudantium laboriosam reiciendis commodi nihil. 
+    Deleniti perferendis, est tempora beatae nobis quos, nam ratione, enim necessitatibus fuga totam.
+    Quam doloremque soluta voluptatum tempora ex itaque reiciendis delectus illo consequatur vitae laboriosam aliquam corporis, enim accusantium voluptatem velit vero?</p>
+
+
+   
+    </div>
+    <div class="comment-box">
+        <h3>Leave a comment</h3>
+        <form class="comment-form">
+           <input type="text" placeholder="Enter Name"/>
+           <input type="text" placeholder="Enter Email"/>
+           <textarea name="message" rows="5"  placeholder=" Your Message..."></textarea>
+           <button type="submit" class="button">POST COMMENT</button>
+        </form>
+        </div>
+    </div>
+    
+    <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Sports</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Dance</span>
+            <span>18</span>
+        </div>
+        <div>
+            <span>Article</span>
+            <span>35</span>
+        </div>
+        <div>
+            <span>Program</span>
+            <span>23</span>
+        </div>
+        <div>
+            <span>Coding</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>Science</span>
+            <span>22</span>
+        </div>
+        <div>
+            <span>Commerce</span>
+            <span>30</span>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<section class="footer">
+ <h3>About Us</h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Voluptates, ipsa?Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit. Alias, dolorum.</p>
+
+<div class="icons">
+    <a href="#"><img src="facebook.jpg"></a>
+    <a href="#"><img src="twitter.jpg"></a>
+    <a href="#"><img src="insta.jpg"></a>
+    <a href="#"><img src="linkdin.png"></a>
+    </div>
+    <div class="tutorial">
+    <p>Made with &#9829; by Easy Tutorials</p>
+    </div>
+</section>
+
+<!--javascrpt toggle menu-->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

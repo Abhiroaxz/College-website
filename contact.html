@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website design</title>
+    <link  rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-logo">
+            <a href="index.html"><img src="vector.jpg" alt="" class="logoimg" ></a>
+          
+            <pre>
+                
+                <p class="logo-text">EDUTECH</p>
+             </pre>
+          </div> 
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onClick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+            </div>
+            <i class="fa fa-bars"  onClick="showMenu()"></i>
+        </nav>
+
+      <h1>CONTACT US </h1>
+       </section>
+<!--Contact us content-->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d114270.30408763119!2d80.25210879999999!3d26.4896512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1710997622804!5m2!1sen!2sin" width="600" height="450" style="border:0;"
+     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+            <img class="contact-icon"src ="home.png">
+             <span>
+             <h5>XYZ Road ,ABC Building</h5>
+             <p>Banglore,karnataka</p>
+           </span>
+        </div>
+   
+        <div>
+           <img class="contact-icon"src="phone.png">
+           <span>
+           <h5>info@easytutorialpro.com</h5>
+           <p>Email us for query</p>
+          </span>
+        </div>
+  
+    <div>
+        <img class="contact-icon"src="evelop.png">
+        <span>
+        <h5>info@easytutorialpro.com</h5>
+        <p>Email us for query</p>
+       </span>
+
+    </div>
+</div>
+</div>
+        <div class="contact-col">
+
+       <form  action="">
+        <h1>FILL THE FORM</h1>
+        <input type="text" placeholder="Enter your name" required>
+        <input type="text" placeholder="Enter your Email" required>
+        <input type="text" placeholder="Enter your Subject" required>
+        <textarea rows="8" placeholde="message"></textarea>
+        <button type="submit" class="button">SEND MESSAGE</button> 
+
+       </form>
+
+
+
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+ <h3>About Us</h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Voluptates, ipsa?Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit. Alias, dolorum.</p>
+
+<div class="icons">
+    <a href="#"><img src="facebook.jpg"></a>
+    <a href="#"><img src="twitter.jpg"></a>
+    <a href="#"><img src="insta.jpg"></a>
+    <a href="#"><img src="linkdin.png"></a>
+    </div>
+    <div class="tutorial">
+    <p>Made with &#9829; by Easy Tutorials</p>
+    </div>
+</section>
+<!--javascrpt toggle menu-->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

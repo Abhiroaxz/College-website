@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website design</title>
+    <link  rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-logo">
+            <a href="index.html"><img src="vector.jpg" alt="" class="logoimg" ></a>
+          
+            <pre>
+                
+                <p class="logo-text">EDUTECH</p>
+             </pre>
+          </div> 
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onClick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars"  onClick="showMenu()"></i>
+        </nav>
+
+      <h1>Our Courses</h1>
+       </section>
+<!--our courses-->
+
+<section class="course">
+    <h1>Courses We offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Primary</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eveniet omnis iste vel,
+                 minima ipsam quis magni quam ratione commodi veritatis sequi modi ad reiciendis.</p>
+        </div>
+        <div class="course-col">
+            <h3>Highschool</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eveniet omnis iste vel,
+                 minima ipsam quis magni quam ratione commodi veritatis sequi modi ad reiciendis.</p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eveniet omnis iste vel,
+                 minima ipsam quis magni quam ratione commodi veritatis sequi modi ad reiciendis.</p>
+        </div>
+    </div>
+    </section>
+
+<!--Facility-->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, laborum!</p>
+    <div class="row">
+     <div class="facilities-col">
+         <img src="https://loremflickr.com/200/300/teacher" alt="img" class="fcimg">
+         <h3>BEST TEACHER</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Modi fuga nihil quisquam reprehenderit, quaerat quis!</p>
+     </div>
+     <div class="facilities-col">
+         <img src="https://loremflickr.com/200/300/computer" class="fcimg" alt="img">
+         <h3>CODING CLASS</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Modi fuga nihil quisquam reprehenderit, quaerat quis!</p>
+     </div>
+     <div class="facilities-col">
+         <img src="https://loremflickr.com/200/300/sports"  class="fcimg" alt="img">
+         <h3>SPORTS EVENT</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Modi fuga nihil quisquam reprehenderit, quaerat quis!</p>
+     </div>
+     <div class="facilities-col">
+         <img src="https://loremflickr.com/200/300/dance"  class="fcimg" alt="img">
+         <h3>CULTURAL EVENT</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Modi fuga nihil quisquam reprehenderit, quaerat quis!</p>
+     </div>
+    </div>
+</section>
+
+<section class="footer">
+ <h3>About Us</h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Voluptates, ipsa?Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit. Alias, dolorum.</p>
+
+<div class="icons">
+    <a href="#"><img src="facebook.jpg"></a>
+    <a href="#"><img src="twitter.jpg"></a>
+    <a href="#"><img src="insta.jpg"></a>
+    <a href="#"><img src="linkdin.png"></a>
+    </div>
+    <div class="tutorial">
+    <p>Made with &#9829; by Easy Tutorials</p>
+    </div>
+</section>
+
+<!--javascrpt toggle menu-->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
